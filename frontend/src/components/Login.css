@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  /*background-image: url('./assets/backgrounds.jpg'); */
+  background-image: url('./assets/backgrounds.jpg');
   background-color:rgb(38, 2, 2);
   background-size: cover;
   background-repeat: no-repeat;
