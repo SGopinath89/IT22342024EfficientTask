@@ -13,7 +13,7 @@ function App() {
   const [tasktoUpdate, setTasktoUpdate] = useState({});
   const [showPopup, setShowPopup] = useState(false);
   const [isAuth, setIsAuth] = useState(false);
-
+  
   useEffect(() => {
     const token = localStorage.getItem('token');
     if (token) {

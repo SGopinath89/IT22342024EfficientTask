@@ -18,6 +18,7 @@ const Login = ({ setAuth }) => {
       navigate('/') // Redirect to home page after successful login
     } catch (error) {
       console.error('Error logging in', error)
+      
     }
   }
 
