@@ -19,6 +19,12 @@ body {
   align-items: center;
   height: 100vh;
 }
+.error-message {
+  color: rgb(0, 255, 85);
+  font-size: 14px;
+  margin-top: 10px;
+}
+
 
 .intro-message {
   text-align: center;

@@ -6,6 +6,7 @@ import './Login.css'
 const Login = ({ setAuth }) => {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
+  const [errorMessage, setErrorMessage] = useState('');
   const navigate = useNavigate()
 
   const handleSubmit = async (e) => {
@@ -17,7 +18,7 @@ const Login = ({ setAuth }) => {
       setAuth(true)
       navigate('/') // Redirect to home page after successful login
     } catch (error) {
-      console.error('Error logging in', error)
+      setErrorMessage('Login failed. Please check your credentials.')
       
     }
   }
@@ -30,7 +31,8 @@ const Login = ({ setAuth }) => {
         <h1>Welcome to Efficient-Task!</h1>
         <p>Organize your tasks efficiently with our simple and intuitive task management system.</p>
       </div>
-      <form onSubmit={handleSubmit} className="auth-form">
+      {errorMessage && <p className="error-message">{errorMessage}</p>}
+    <form onSubmit={handleSubmit} className="auth-form">
         <h2>Login</h2>
         <input
           type="text"

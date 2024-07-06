@@ -11,6 +11,36 @@ body {
   align-items: center; /* Center vertically */
 }
 
+.auth-container {
+  display: flex;
+  flex-direction: column; /* Align items in a column */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.error-message {
+  color: rgb(0, 255, 85);
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+.intro-message {
+  text-align: center;
+  margin-bottom: 20px; /* Adjust spacing between intro message and form */
+}
+
+.intro-message h1 {
+  font-size: 2rem;
+  color:  #FFFF00; /* Adjust color to match your design */
+}
+
+.intro-message p {
+  margin-top: 5px;
+  font-size: 1.5rem;
+  color:#f7f4f4; /* Adjust color to match your design */
+}
+
 form {
   background: rgba(255, 255, 255, 0.8);
   padding: 20px;
