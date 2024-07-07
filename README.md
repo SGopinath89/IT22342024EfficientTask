@@ -18,6 +18,7 @@ Documentation
 For detailed documentation include the installation steps , please navigate to the documentation folder and access the 
 Efficient-Task Documentation.pdf file.
 
+Note:this efficient-task does not include user-specific task management, i tried it to add, but i faced some difficulties to add this,so i put it as it is,hope in future i will enhance it with personalized and secure experience for users
 
 
 
